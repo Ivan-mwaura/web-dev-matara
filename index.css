@@ -1,0 +1,53 @@
+table{
+    border: 2px solid black ;
+    border-collapse: collapse;
+
+}
+
+table td{
+    border: 2px solid black;
+}
+
+#profile{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.content{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.matara{  
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+
+}
+button{
+    height: 50px;
+    width: 100px;
+    margin-bottom:10px;
+}
